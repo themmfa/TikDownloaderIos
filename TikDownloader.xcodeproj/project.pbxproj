@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		853114C928E611F300BF948B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853114C828E611F300BF948B /* AppDelegate.swift */; };
+		853114CB28E611F300BF948B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853114CA28E611F300BF948B /* SceneDelegate.swift */; };
+		853114CD28E611F300BF948B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853114CC28E611F300BF948B /* ViewController.swift */; };
+		853114D028E611F300BF948B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853114CE28E611F300BF948B /* Main.storyboard */; };
+		853114D228E611F400BF948B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853114D128E611F400BF948B /* Assets.xcassets */; };
+		853114D528E611F400BF948B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853114D328E611F400BF948B /* LaunchScreen.storyboard */; };
+		853114E028E611F400BF948B /* TikDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853114DF28E611F400BF948B /* TikDownloaderTests.swift */; };
+		853114EA28E611F400BF948B /* TikDownloaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853114E928E611F400BF948B /* TikDownloaderUITests.swift */; };
+		853114EC28E611F400BF948B /* TikDownloaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853114EB28E611F400BF948B /* TikDownloaderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		853114DC28E611F400BF948B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 853114BD28E611F300BF948B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853114C428E611F300BF948B;
+			remoteInfo = TikDownloader;
+		};
+		853114E628E611F400BF948B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 853114BD28E611F300BF948B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853114C428E611F300BF948B;
+			remoteInfo = TikDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		853114C528E611F300BF948B /* TikDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		853114C828E611F300BF948B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		853114CA28E611F300BF948B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		853114CC28E611F300BF948B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		853114CF28E611F300BF948B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		853114D128E611F400BF948B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		853114D428E611F400BF948B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		853114D628E611F400BF948B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853114DB28E611F400BF948B /* TikDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		853114DF28E611F400BF948B /* TikDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikDownloaderTests.swift; sourceTree = "<group>"; };
+		853114E528E611F400BF948B /* TikDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		853114E928E611F400BF948B /* TikDownloaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikDownloaderUITests.swift; sourceTree = "<group>"; };
+		853114EB28E611F400BF948B /* TikDownloaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikDownloaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		853114C228E611F300BF948B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853114D828E611F400BF948B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853114E228E611F400BF948B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		853114BC28E611F300BF948B = {
+			isa = PBXGroup;
+			children = (
+				853114C728E611F300BF948B /* TikDownloader */,
+				853114DE28E611F400BF948B /* TikDownloaderTests */,
+				853114E828E611F400BF948B /* TikDownloaderUITests */,
+				853114C628E611F300BF948B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		853114C628E611F300BF948B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				853114C528E611F300BF948B /* TikDownloader.app */,
+				853114DB28E611F400BF948B /* TikDownloaderTests.xctest */,
+				853114E528E611F400BF948B /* TikDownloaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		853114C728E611F300BF948B /* TikDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				853114C828E611F300BF948B /* AppDelegate.swift */,
+				853114CA28E611F300BF948B /* SceneDelegate.swift */,
+				853114CC28E611F300BF948B /* ViewController.swift */,
+				853114CE28E611F300BF948B /* Main.storyboard */,
+				853114D128E611F400BF948B /* Assets.xcassets */,
+				853114D328E611F400BF948B /* LaunchScreen.storyboard */,
+				853114D628E611F400BF948B /* Info.plist */,
+			);
+			path = TikDownloader;
+			sourceTree = "<group>";
+		};
+		853114DE28E611F400BF948B /* TikDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				853114DF28E611F400BF948B /* TikDownloaderTests.swift */,
+			);
+			path = TikDownloaderTests;
+			sourceTree = "<group>";
+		};
+		853114E828E611F400BF948B /* TikDownloaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				853114E928E611F400BF948B /* TikDownloaderUITests.swift */,
+				853114EB28E611F400BF948B /* TikDownloaderUITestsLaunchTests.swift */,
+			);
+			path = TikDownloaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		853114C428E611F300BF948B /* TikDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853114EF28E611F400BF948B /* Build configuration list for PBXNativeTarget "TikDownloader" */;
+			buildPhases = (
+				853114C128E611F300BF948B /* Sources */,
+				853114C228E611F300BF948B /* Frameworks */,
+				853114C328E611F300BF948B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TikDownloader;
+			productName = TikDownloader;
+			productReference = 853114C528E611F300BF948B /* TikDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		853114DA28E611F400BF948B /* TikDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853114F228E611F400BF948B /* Build configuration list for PBXNativeTarget "TikDownloaderTests" */;
+			buildPhases = (
+				853114D728E611F400BF948B /* Sources */,
+				853114D828E611F400BF948B /* Frameworks */,
+				853114D928E611F400BF948B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853114DD28E611F400BF948B /* PBXTargetDependency */,
+			);
+			name = TikDownloaderTests;
+			productName = TikDownloaderTests;
+			productReference = 853114DB28E611F400BF948B /* TikDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		853114E428E611F400BF948B /* TikDownloaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853114F528E611F400BF948B /* Build configuration list for PBXNativeTarget "TikDownloaderUITests" */;
+			buildPhases = (
+				853114E128E611F400BF948B /* Sources */,
+				853114E228E611F400BF948B /* Frameworks */,
+				853114E328E611F400BF948B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853114E728E611F400BF948B /* PBXTargetDependency */,
+			);
+			name = TikDownloaderUITests;
+			productName = TikDownloaderUITests;
+			productReference = 853114E528E611F400BF948B /* TikDownloaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		853114BD28E611F300BF948B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					853114C428E611F300BF948B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					853114DA28E611F400BF948B = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 853114C428E611F300BF948B;
+					};
+					853114E428E611F400BF948B = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 853114C428E611F300BF948B;
+					};
+				};
+			};
+			buildConfigurationList = 853114C028E611F300BF948B /* Build configuration list for PBXProject "TikDownloader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 853114BC28E611F300BF948B;
+			productRefGroup = 853114C628E611F300BF948B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				853114C428E611F300BF948B /* TikDownloader */,
+				853114DA28E611F400BF948B /* TikDownloaderTests */,
+				853114E428E611F400BF948B /* TikDownloaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		853114C328E611F300BF948B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853114D528E611F400BF948B /* LaunchScreen.storyboard in Resources */,
+				853114D228E611F400BF948B /* Assets.xcassets in Resources */,
+				853114D028E611F300BF948B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853114D928E611F400BF948B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853114E328E611F400BF948B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		853114C128E611F300BF948B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853114CD28E611F300BF948B /* ViewController.swift in Sources */,
+				853114C928E611F300BF948B /* AppDelegate.swift in Sources */,
+				853114CB28E611F300BF948B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853114D728E611F400BF948B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853114E028E611F400BF948B /* TikDownloaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853114E128E611F400BF948B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853114EC28E611F400BF948B /* TikDownloaderUITestsLaunchTests.swift in Sources */,
+				853114EA28E611F400BF948B /* TikDownloaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		853114DD28E611F400BF948B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853114C428E611F300BF948B /* TikDownloader */;
+			targetProxy = 853114DC28E611F400BF948B /* PBXContainerItemProxy */;
+		};
+		853114E728E611F400BF948B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853114C428E611F300BF948B /* TikDownloader */;
+			targetProxy = 853114E628E611F400BF948B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		853114CE28E611F300BF948B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				853114CF28E611F300BF948B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		853114D328E611F400BF948B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				853114D428E611F400BF948B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		853114ED28E611F400BF948B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		853114EE28E611F400BF948B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		853114F028E611F400BF948B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TikDownloader/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmmaltd.TikDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		853114F128E611F400BF948B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TikDownloader/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmmaltd.TikDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		853114F328E611F400BF948B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmmaltd.TikDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikDownloader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TikDownloader";
+			};
+			name = Debug;
+		};
+		853114F428E611F400BF948B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmmaltd.TikDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikDownloader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TikDownloader";
+			};
+			name = Release;
+		};
+		853114F628E611F400BF948B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmmaltd.TikDownloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TikDownloader;
+			};
+			name = Debug;
+		};
+		853114F728E611F400BF948B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmmaltd.TikDownloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TikDownloader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		853114C028E611F300BF948B /* Build configuration list for PBXProject "TikDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853114ED28E611F400BF948B /* Debug */,
+				853114EE28E611F400BF948B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853114EF28E611F400BF948B /* Build configuration list for PBXNativeTarget "TikDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853114F028E611F400BF948B /* Debug */,
+				853114F128E611F400BF948B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853114F228E611F400BF948B /* Build configuration list for PBXNativeTarget "TikDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853114F328E611F400BF948B /* Debug */,
+				853114F428E611F400BF948B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853114F528E611F400BF948B /* Build configuration list for PBXNativeTarget "TikDownloaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853114F628E611F400BF948B /* Debug */,
+				853114F728E611F400BF948B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 853114BD28E611F300BF948B /* Project object */;
+}
