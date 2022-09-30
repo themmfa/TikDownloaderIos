@@ -16,6 +16,10 @@
 		853114E028E611F400BF948B /* TikDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853114DF28E611F400BF948B /* TikDownloaderTests.swift */; };
 		853114EA28E611F400BF948B /* TikDownloaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853114E928E611F400BF948B /* TikDownloaderUITests.swift */; };
 		853114EC28E611F400BF948B /* TikDownloaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853114EB28E611F400BF948B /* TikDownloaderUITestsLaunchTests.swift */; };
+		853114FA28E6122900BF948B /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 853114F928E6122800BF948B /* Inter-Black.ttf */; };
+		853114FB28E6122900BF948B /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 853114F928E6122800BF948B /* Inter-Black.ttf */; };
+		853114FC28E6122900BF948B /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 853114F928E6122800BF948B /* Inter-Black.ttf */; };
+		8531150128E6BCA700BF948B /* ViewDownloadScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8531150028E6BCA700BF948B /* ViewDownloadScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		853114E528E611F400BF948B /* TikDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		853114E928E611F400BF948B /* TikDownloaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikDownloaderUITests.swift; sourceTree = "<group>"; };
 		853114EB28E611F400BF948B /* TikDownloaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikDownloaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		853114F928E6122800BF948B /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		8531150028E6BCA700BF948B /* ViewDownloadScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDownloadScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		853114BC28E611F300BF948B = {
 			isa = PBXGroup;
 			children = (
+				853114F828E6120300BF948B /* fonts */,
 				853114C728E611F300BF948B /* TikDownloader */,
 				853114DE28E611F400BF948B /* TikDownloaderTests */,
 				853114E828E611F400BF948B /* TikDownloaderUITests */,
@@ -99,10 +106,11 @@
 		853114C728E611F300BF948B /* TikDownloader */ = {
 			isa = PBXGroup;
 			children = (
+				853114FF28E6BBC100BF948B /* View */,
+				853114FE28E6BBBA00BF948B /* Model */,
+				853114FD28E6BBB300BF948B /* Controller */,
 				853114C828E611F300BF948B /* AppDelegate.swift */,
 				853114CA28E611F300BF948B /* SceneDelegate.swift */,
-				853114CC28E611F300BF948B /* ViewController.swift */,
-				853114CE28E611F300BF948B /* Main.storyboard */,
 				853114D128E611F400BF948B /* Assets.xcassets */,
 				853114D328E611F400BF948B /* LaunchScreen.storyboard */,
 				853114D628E611F400BF948B /* Info.plist */,
@@ -125,6 +133,38 @@
 				853114EB28E611F400BF948B /* TikDownloaderUITestsLaunchTests.swift */,
 			);
 			path = TikDownloaderUITests;
+			sourceTree = "<group>";
+		};
+		853114F828E6120300BF948B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				853114F928E6122800BF948B /* Inter-Black.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		853114FD28E6BBB300BF948B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				853114CC28E611F300BF948B /* ViewController.swift */,
+				8531150028E6BCA700BF948B /* ViewDownloadScreen.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		853114FE28E6BBBA00BF948B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		853114FF28E6BBC100BF948B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				853114CE28E611F300BF948B /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +274,7 @@
 				853114D528E611F400BF948B /* LaunchScreen.storyboard in Resources */,
 				853114D228E611F400BF948B /* Assets.xcassets in Resources */,
 				853114D028E611F300BF948B /* Main.storyboard in Resources */,
+				853114FA28E6122900BF948B /* Inter-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853114FB28E6122900BF948B /* Inter-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853114FC28E6122900BF948B /* Inter-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +303,7 @@
 			files = (
 				853114CD28E611F300BF948B /* ViewController.swift in Sources */,
 				853114C928E611F300BF948B /* AppDelegate.swift in Sources */,
+				8531150128E6BCA700BF948B /* ViewDownloadScreen.swift in Sources */,
 				853114CB28E611F300BF948B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
