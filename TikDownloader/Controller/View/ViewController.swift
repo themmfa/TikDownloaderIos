@@ -67,6 +67,7 @@ extension ViewController: PhotoPermissionDelegate {
                 let alert = UIAlertController(title: "Error", message: "You can't use the app without permission.", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "Ok", style: .default))
                 self.present(alert, animated: true, completion: nil)
+                print("Osman")
             }
         }
     }

@@ -41,6 +41,7 @@ struct VideoManager {
                 }
             }
             completion()
+
         })
         dataTask.resume()
     }
