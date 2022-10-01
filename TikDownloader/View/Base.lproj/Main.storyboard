@@ -63,6 +63,10 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="XXY-OF-GIk">
+                                <rect key="frame" x="196.66666666666666" y="447.66666666666669" width="37" height="37"/>
+                                <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.086274504660000001" green="0.090196087960000004" blue="0.1294117719" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -71,10 +75,13 @@
                             <constraint firstItem="blC-Fq-WSs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="ERJ-gd-d1i"/>
                             <constraint firstItem="5As-sl-j2O" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="43" id="I0h-00-3wh"/>
                             <constraint firstItem="5As-sl-j2O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Psj-iQ-WP6"/>
+                            <constraint firstItem="XXY-OF-GIk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TJx-Pi-gKi"/>
+                            <constraint firstItem="XXY-OF-GIk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uth-4z-PqW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="blC-Fq-WSs" secondAttribute="bottom" constant="407" id="vRu-PJ-orJ"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="XXY-OF-GIk" id="hzB-YC-W15"/>
                         <outlet property="getVideoButton" destination="kS9-UP-DWp" id="N1B-Dg-iYY"/>
                         <outlet property="videoLinkTextField" destination="ApL-xJ-PBC" id="9MA-W1-1sA"/>
                         <segue destination="YhF-MB-UKj" kind="show" identifier="GoToVideo" id="b6Y-mi-ezl"/>
@@ -82,7 +89,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="3.5545023696682461"/>
+            <point key="canvasLocation" x="139.53488372093022" y="3.218884120171674"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="QYR-Ca-p2P">
@@ -105,7 +112,7 @@
                                         <rect key="frame" x="0.0" y="51" width="390" height="503"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHH-Ye-M6n">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHH-Ye-M6n">
                                         <rect key="frame" x="0.0" y="584" width="390" height="20"/>
                                         <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

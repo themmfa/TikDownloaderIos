@@ -75,8 +75,9 @@ extension ResultViewController {
             let player = AVPlayer(url: url)
             let avController = AVPlayerViewController()
             avController.player = player
-            avController.view.frame = self.videoView.frame
-            self.view.addSubview(avController.view)
+            avController.view.frame = self.videoView.bounds
+            avController.videoGravity = .resizeAspectFill
+            self.videoView.addSubview(avController.view)
             self.addChild(avController)
         }
     }

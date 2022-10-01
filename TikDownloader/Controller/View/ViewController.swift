@@ -21,14 +21,20 @@ class ViewController: UIViewController {
     var videoUrl: String?
     var videoDesc: String?
 
+    @IBOutlet var activityIndicator: UIActivityIndicatorView!
+
     @IBOutlet var videoLinkTextField: UITextField!
 
     @IBOutlet var getVideoButton: UIButton!
 
     @IBAction func getVideoButtonPressed(_ sender: UIButton) {
         if videoLinkTextField.text != nil, videoLinkTextField.text!.contains("tiktok") {
+            showActivityIndicator()
+            view.isUserInteractionEnabled = false
             videoManager.performRequest(with: videoLinkTextField.text!) {
                 DispatchQueue.main.async {
+                    self.view.isUserInteractionEnabled = true
+                    self.removeActivityIndicator()
                     self.performSegue(withIdentifier: "GoToVideo", sender: self)
                 }
             }
@@ -41,6 +47,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        removeActivityIndicator()
         photoPermission.delegate = self
         videoLinkTextField.delegate = self
         videoManager.delegate = self
@@ -63,6 +70,16 @@ extension ViewController {
         let alert = UIAlertController(title: "Error", message: alertMessage, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Ok", style: .default))
         present(alert, animated: true, completion: nil)
+    }
+
+    func showActivityIndicator() {
+        activityIndicator.isHidden = false
+        activityIndicator.startAnimating()
+    }
+
+    func removeActivityIndicator() {
+        activityIndicator.isHidden = true
+        activityIndicator.stopAnimating()
     }
 }
 
