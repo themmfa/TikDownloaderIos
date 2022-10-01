@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -18,45 +18,43 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TikDownloader" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Saver" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5As-sl-j2O">
-                                <rect key="frame" x="116.5" y="91" width="181.5" height="36.5"/>
+                                <rect key="frame" x="124.33333333333333" y="102" width="181.33333333333337" height="36.333333333333343"/>
                                 <fontDescription key="fontDescription" name="Inter-Black" family="Inter" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="blC-Fq-WSs">
-                                <rect key="frame" x="25" y="285.5" width="364" height="169.5"/>
+                                <rect key="frame" x="25" y="319.66666666666669" width="380" height="171.33333333333331"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Link" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4gG-Yp-2QC">
-                                        <rect key="frame" x="0.0" y="0.0" width="364" height="19.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="380" height="19.666666666666668"/>
                                         <fontDescription key="fontDescription" name="Inter-Black" family="Inter" pointSize="16"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ApL-xJ-PBC">
-                                        <rect key="frame" x="0.0" y="33.5" width="364" height="34"/>
+                                        <rect key="frame" x="0.0" y="33.666666666666629" width="380" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kS9-UP-DWp">
-                                        <rect key="frame" x="0.0" y="81.5" width="364" height="30"/>
+                                        <rect key="frame" x="0.0" y="81.666666666666629" width="380" height="32"/>
                                         <color key="backgroundColor" red="0.72156864399999998" green="0.30196079609999998" blue="0.40392160420000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="17"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Get Video">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <state key="disabled" title="Get Video">
-                                            <color key="titleColor" red="0.77254903320000001" green="0.77254903320000001" blue="0.77254903320000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
                                             <action selector="getVideoButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vgu-FQ-uTP"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsV-5z-umo">
-                                        <rect key="frame" x="0.0" y="125.5" width="364" height="44"/>
+                                        <rect key="frame" x="0.0" y="127.66666666666664" width="380" height="43.666666666666671"/>
                                         <string key="text">After entering the video link, you can check and download the video.
 </string>
                                         <fontDescription key="fontDescription" name="Inter-Black" family="Inter" pointSize="12"/>
@@ -79,28 +77,91 @@
                     <connections>
                         <outlet property="getVideoButton" destination="kS9-UP-DWp" id="N1B-Dg-iYY"/>
                         <outlet property="videoLinkTextField" destination="ApL-xJ-PBC" id="9MA-W1-1sA"/>
-                        <segue destination="QuJ-sh-T4D" kind="show" identifier="GoToVideo" id="gg4-jq-xU6"/>
+                        <segue destination="YhF-MB-UKj" kind="show" identifier="GoToVideo" id="b6Y-mi-ezl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="140" y="3.5545023696682461"/>
         </scene>
-        <!--Video Download Screen-->
-        <scene sceneID="mrh-xC-Rcp">
+        <!--Result View Controller-->
+        <scene sceneID="QYR-Ca-p2P">
             <objects>
-                <viewController id="QuJ-sh-T4D" customClass="VideoDownloadScreen" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="usN-5J-fzB">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
+                <viewController id="YhF-MB-UKj" customClass="ResultViewController" customModule="TikDownloader" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6aL-ah-Kbh">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="863"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="D3s-bb-MUx"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="XLD-Q9-O2Y" userLabel="Vertical View">
+                                <rect key="frame" x="20" y="79" width="390" height="734"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selected Video" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fuJ-Ru-NQw">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="21"/>
+                                        <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ps-sc-JkQ" userLabel="Video View">
+                                        <rect key="frame" x="0.0" y="51" width="390" height="503"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHH-Ye-M6n">
+                                        <rect key="frame" x="0.0" y="584" width="390" height="20"/>
+                                        <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2E1-QH-UGq">
+                                        <rect key="frame" x="0.0" y="634" width="390" height="35"/>
+                                        <color key="tintColor" red="0.72156864399999998" green="0.30196079609999998" blue="0.40392160420000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Save Another">
+                                            <fontDescription key="titleFontDescription" name="Inter-Bold" family="Inter" pointSize="18"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="saveAnotherPressed:" destination="YhF-MB-UKj" eventType="touchUpInside" id="TxW-i7-dQg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCr-qh-RgH">
+                                        <rect key="frame" x="0.0" y="699" width="390" height="35"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Download">
+                                            <fontDescription key="titleFontDescription" name="Inter-Bold" family="Inter" pointSize="18"/>
+                                            <color key="baseForegroundColor" red="0.72156864399999998" green="0.30196079609999998" blue="0.40392160420000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.72156864399999998" green="0.30196079609999998" blue="0.40392160420000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="downloadButtonPressed:" destination="YhF-MB-UKj" eventType="touchUpInside" id="vnj-dd-DXy"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="t5j-1T-wql"/>
+                        <color key="backgroundColor" red="0.086274504660000001" green="0.090196087960000004" blue="0.1294117719" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="XLD-Q9-O2Y" firstAttribute="top" secondItem="t5j-1T-wql" secondAttribute="top" constant="20" id="8X8-Dn-jh0"/>
+                            <constraint firstItem="XLD-Q9-O2Y" firstAttribute="leading" secondItem="t5j-1T-wql" secondAttribute="leading" constant="20" id="Gtt-r2-KLA"/>
+                            <constraint firstItem="t5j-1T-wql" firstAttribute="trailing" secondItem="XLD-Q9-O2Y" secondAttribute="trailing" constant="20" id="HbM-aN-Sg2"/>
+                            <constraint firstItem="t5j-1T-wql" firstAttribute="bottom" secondItem="XLD-Q9-O2Y" secondAttribute="bottom" constant="50" id="rH3-Gq-3W5"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="gel-v0-NCw"/>
+                    <navigationItem key="navigationItem" id="awe-pE-VTc"/>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="WHH-Ye-M6n" id="ftQ-at-5kd"/>
+                        <outlet property="downloadButton" destination="dCr-qh-RgH" id="Ju1-gA-Z2q"/>
+                        <outlet property="selectedVideoLabel" destination="fuJ-Ru-NQw" id="Xw1-In-gFe"/>
+                        <outlet property="videoView" destination="0Ps-sc-JkQ" id="YRo-ri-fy0"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uoX-SC-66c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dPk-AY-ba4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1004" y="3"/>
+            <point key="canvasLocation" x="1066.046511627907" y="2.5751072961373391"/>
         </scene>
     </scenes>
     <resources>

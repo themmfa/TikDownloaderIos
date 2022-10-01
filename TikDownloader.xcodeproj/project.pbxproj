@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		852B555028E6DE6600E9853C /* VideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852B554F28E6DE6600E9853C /* VideoManager.swift */; };
+		852B555628E6EBCC00E9853C /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852B555528E6EBCC00E9853C /* VideoModel.swift */; };
+		852B555828E6EC4600E9853C /* VideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852B555728E6EC4600E9853C /* VideoData.swift */; };
+		852B555A28E708B500E9853C /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852B555928E708B500E9853C /* ViewControllerExtensions.swift */; };
+		852B556228E735CD00E9853C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852B556128E735CD00E9853C /* ResultViewController.swift */; };
 		853114C928E611F300BF948B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853114C828E611F300BF948B /* AppDelegate.swift */; };
 		853114CB28E611F300BF948B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853114CA28E611F300BF948B /* SceneDelegate.swift */; };
 		853114CD28E611F300BF948B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853114CC28E611F300BF948B /* ViewController.swift */; };
@@ -19,7 +24,9 @@
 		853114FA28E6122900BF948B /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 853114F928E6122800BF948B /* Inter-Black.ttf */; };
 		853114FB28E6122900BF948B /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 853114F928E6122800BF948B /* Inter-Black.ttf */; };
 		853114FC28E6122900BF948B /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 853114F928E6122800BF948B /* Inter-Black.ttf */; };
-		8531150128E6BCA700BF948B /* ViewDownloadScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8531150028E6BCA700BF948B /* ViewDownloadScreen.swift */; };
+		8577BA4C28E839BA00B7D51B /* PhotoPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8577BA4B28E839BA00B7D51B /* PhotoPermission.swift */; };
+		8577BA4F28E83D3000B7D51B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8577BA4E28E83D3000B7D51B /* .gitignore */; };
+		8577BA5128E83DBD00B7D51B /* secretKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8577BA5028E83DBD00B7D51B /* secretKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		852B554F28E6DE6600E9853C /* VideoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoManager.swift; sourceTree = "<group>"; };
+		852B555528E6EBCC00E9853C /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		852B555728E6EC4600E9853C /* VideoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoData.swift; sourceTree = "<group>"; };
+		852B555928E708B500E9853C /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
+		852B556128E735CD00E9853C /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		853114C528E611F300BF948B /* TikDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		853114C828E611F300BF948B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		853114CA28E611F300BF948B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +66,9 @@
 		853114E928E611F400BF948B /* TikDownloaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikDownloaderUITests.swift; sourceTree = "<group>"; };
 		853114EB28E611F400BF948B /* TikDownloaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikDownloaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		853114F928E6122800BF948B /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
-		8531150028E6BCA700BF948B /* ViewDownloadScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDownloadScreen.swift; sourceTree = "<group>"; };
+		8577BA4B28E839BA00B7D51B /* PhotoPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPermission.swift; sourceTree = "<group>"; };
+		8577BA4E28E83D3000B7D51B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8577BA5028E83DBD00B7D51B /* secretKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secretKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +99,7 @@
 		853114BC28E611F300BF948B = {
 			isa = PBXGroup;
 			children = (
+				8577BA4D28E83CEC00B7D51B /* Git */,
 				853114F828E6120300BF948B /* fonts */,
 				853114C728E611F300BF948B /* TikDownloader */,
 				853114DE28E611F400BF948B /* TikDownloaderTests */,
@@ -114,6 +129,7 @@
 				853114D128E611F400BF948B /* Assets.xcassets */,
 				853114D328E611F400BF948B /* LaunchScreen.storyboard */,
 				853114D628E611F400BF948B /* Info.plist */,
+				8577BA5028E83DBD00B7D51B /* secretKey.swift */,
 			);
 			path = TikDownloader;
 			sourceTree = "<group>";
@@ -146,8 +162,8 @@
 		853114FD28E6BBB300BF948B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				853114CC28E611F300BF948B /* ViewController.swift */,
-				8531150028E6BCA700BF948B /* ViewDownloadScreen.swift */,
+				8577BA4A28E8395600B7D51B /* ResultView */,
+				8577BA4928E8393B00B7D51B /* View */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -155,6 +171,8 @@
 		853114FE28E6BBBA00BF948B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				852B555528E6EBCC00E9853C /* VideoModel.swift */,
+				852B555728E6EC4600E9853C /* VideoData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +183,33 @@
 				853114CE28E611F300BF948B /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		8577BA4928E8393B00B7D51B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				852B554F28E6DE6600E9853C /* VideoManager.swift */,
+				853114CC28E611F300BF948B /* ViewController.swift */,
+				852B555928E708B500E9853C /* ViewControllerExtensions.swift */,
+				8577BA4B28E839BA00B7D51B /* PhotoPermission.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8577BA4A28E8395600B7D51B /* ResultView */ = {
+			isa = PBXGroup;
+			children = (
+				852B556128E735CD00E9853C /* ResultViewController.swift */,
+			);
+			path = ResultView;
+			sourceTree = "<group>";
+		};
+		8577BA4D28E83CEC00B7D51B /* Git */ = {
+			isa = PBXGroup;
+			children = (
+				8577BA4E28E83D3000B7D51B /* .gitignore */,
+			);
+			path = Git;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8577BA4F28E83D3000B7D51B /* .gitignore in Resources */,
 				853114D528E611F400BF948B /* LaunchScreen.storyboard in Resources */,
 				853114D228E611F400BF948B /* Assets.xcassets in Resources */,
 				853114D028E611F300BF948B /* Main.storyboard in Resources */,
@@ -301,10 +347,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852B555A28E708B500E9853C /* ViewControllerExtensions.swift in Sources */,
 				853114CD28E611F300BF948B /* ViewController.swift in Sources */,
 				853114C928E611F300BF948B /* AppDelegate.swift in Sources */,
-				8531150128E6BCA700BF948B /* ViewDownloadScreen.swift in Sources */,
+				852B556228E735CD00E9853C /* ResultViewController.swift in Sources */,
+				8577BA4C28E839BA00B7D51B /* PhotoPermission.swift in Sources */,
+				852B555828E6EC4600E9853C /* VideoData.swift in Sources */,
+				852B555028E6DE6600E9853C /* VideoManager.swift in Sources */,
 				853114CB28E611F300BF948B /* SceneDelegate.swift in Sources */,
+				852B555628E6EBCC00E9853C /* VideoModel.swift in Sources */,
+				8577BA5128E83DBD00B7D51B /* secretKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
