@@ -35,19 +35,17 @@ class ViewController: UIViewController {
 
         } else {
             videoLinkTextField.text = ""
-            let alert = UIAlertController(title: "Error", message: "Please enter a valid link", preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "Ok", style: .default))
-            present(alert, animated: true, completion: nil)
+            showAlert("Enter a valid link")
         }
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         photoPermission.delegate = self
-        requestForPermission()
-        getVideoButton.backgroundColor = colors.disabledButton
         videoLinkTextField.delegate = self
         videoManager.delegate = self
+        getVideoButton.backgroundColor = colors.disabledButton
+        requestForPermission()
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -60,6 +58,14 @@ class ViewController: UIViewController {
     }
 }
 
+extension ViewController {
+    func showAlert(_ alertMessage: String) {
+        let alert = UIAlertController(title: "Error", message: alertMessage, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: .default))
+        present(alert, animated: true, completion: nil)
+    }
+}
+
 extension ViewController: PhotoPermissionDelegate {
     func requestForPermission() {
         photoPermission.requestAuthorization {
@@ -67,7 +73,6 @@ extension ViewController: PhotoPermissionDelegate {
                 let alert = UIAlertController(title: "Error", message: "You can't use the app without permission.", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "Ok", style: .default))
                 self.present(alert, animated: true, completion: nil)
-                print("Osman")
             }
         }
     }

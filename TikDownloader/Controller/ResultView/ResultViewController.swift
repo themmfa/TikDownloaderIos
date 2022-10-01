@@ -11,6 +11,8 @@ import Photos
 import UIKit
 
 class ResultViewController: UIViewController {
+    var resultManager = ResultManager()
+
     @IBOutlet var selectedVideoLabel: UILabel!
 
     @IBOutlet var videoView: UIView!
@@ -19,7 +21,11 @@ class ResultViewController: UIViewController {
 
     @IBOutlet var downloadButton: UIButton!
 
-    @IBAction func downloadButtonPressed(_ sender: UIButton) {}
+    @IBAction func downloadButtonPressed(_ sender: UIButton) {
+        if let url = videoUrl {
+            self.resultManager.downloadVideoLinkAndCreateAsset(url)
+        }
+    }
 
     var videoUrl: String?
     var videoDescription: String?
@@ -29,6 +35,20 @@ class ResultViewController: UIViewController {
         changeButtonBorder()
         createVideoView()
         self.descriptionLabel.text = self.videoDescription
+    }
+}
+
+extension ResultViewController: ResultManagerDelegate {
+    func didFailedWithError(error: String) {
+        let alert = UIAlertController(title: "Error", message: error, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: .default))
+        present(alert, animated: true, completion: nil)
+    }
+
+    func didVideoDownloaded() {
+        let alert = UIAlertController(title: "Success", message: "Video downloaded successfully", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: .default))
+        present(alert, animated: true, completion: nil)
     }
 }
 

@@ -27,6 +27,7 @@
 		8577BA4C28E839BA00B7D51B /* PhotoPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8577BA4B28E839BA00B7D51B /* PhotoPermission.swift */; };
 		8577BA4F28E83D3000B7D51B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8577BA4E28E83D3000B7D51B /* .gitignore */; };
 		8577BA5128E83DBD00B7D51B /* secretKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8577BA5028E83DBD00B7D51B /* secretKey.swift */; };
+		8577BA5328E851C900B7D51B /* ResultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8577BA5228E851C900B7D51B /* ResultManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		8577BA4B28E839BA00B7D51B /* PhotoPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPermission.swift; sourceTree = "<group>"; };
 		8577BA4E28E83D3000B7D51B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		8577BA5028E83DBD00B7D51B /* secretKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secretKey.swift; sourceTree = "<group>"; };
+		8577BA5228E851C900B7D51B /* ResultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				852B556128E735CD00E9853C /* ResultViewController.swift */,
+				8577BA5228E851C900B7D51B /* ResultManager.swift */,
 			);
 			path = ResultView;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				853114CD28E611F300BF948B /* ViewController.swift in Sources */,
 				853114C928E611F300BF948B /* AppDelegate.swift in Sources */,
 				852B556228E735CD00E9853C /* ResultViewController.swift in Sources */,
+				8577BA5328E851C900B7D51B /* ResultManager.swift in Sources */,
 				8577BA4C28E839BA00B7D51B /* PhotoPermission.swift in Sources */,
 				852B555828E6EC4600E9853C /* VideoData.swift in Sources */,
 				852B555028E6DE6600E9853C /* VideoManager.swift in Sources */,
