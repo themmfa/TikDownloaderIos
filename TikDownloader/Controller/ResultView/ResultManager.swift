@@ -28,19 +28,23 @@ struct ResultManager {
                 let urlData = NSData(contentsOf: data!)
                 let galleryPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
                 let filePath = "\(galleryPath)/\(response?.suggestedFilename ?? "default").mp4"
-                DispatchQueue.main.async {
-                    urlData!.write(toFile: filePath, atomically: true)
-                    PHPhotoLibrary.shared().performChanges({
-                        PHAssetChangeRequest.creationRequestForAssetFromVideo(atFileURL:
-                            URL(fileURLWithPath: filePath))
-                    }) {
-                        success, _ in
-                        if success {
-                            self.delegate?.didVideoDownloaded()
-                        } else {
-                            self.delegate?.didFailedWithError(error: "Video could not saved.")
+                if PHPhotoLibrary.authorizationStatus() == .authorized {
+                    DispatchQueue.main.async {
+                        urlData!.write(toFile: filePath, atomically: true)
+                        PHPhotoLibrary.shared().performChanges({
+                            PHAssetChangeRequest.creationRequestForAssetFromVideo(atFileURL:
+                                URL(fileURLWithPath: filePath))
+                        }) {
+                            success, _ in
+                            if success {
+                                self.delegate?.didVideoDownloaded()
+                            } else {
+                                self.delegate?.didFailedWithError(error: "Video could not saved.")
+                            }
                         }
                     }
+                } else {
+                    self.delegate?.didFailedWithError(error: "You have to give permission to save video. Please go to settings and give Photos permission")
                 }
             }.resume()
 

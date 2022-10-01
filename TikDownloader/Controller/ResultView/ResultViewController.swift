@@ -32,6 +32,7 @@ class ResultViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.resultManager.delegate = self
         changeButtonBorder()
         createVideoView()
         self.descriptionLabel.text = self.videoDescription
@@ -40,15 +41,19 @@ class ResultViewController: UIViewController {
 
 extension ResultViewController: ResultManagerDelegate {
     func didFailedWithError(error: String) {
-        let alert = UIAlertController(title: "Error", message: error, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Ok", style: .default))
-        present(alert, animated: true, completion: nil)
+        DispatchQueue.main.async {
+            let alert = UIAlertController(title: "Error", message: error, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: .default))
+            self.present(alert, animated: true, completion: nil)
+        }
     }
 
     func didVideoDownloaded() {
-        let alert = UIAlertController(title: "Success", message: "Video downloaded successfully", preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Ok", style: .default))
-        present(alert, animated: true, completion: nil)
+        DispatchQueue.main.async {
+            let alert = UIAlertController(title: "Success", message: "Video downloaded successfully", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: .default))
+            self.present(alert, animated: true, completion: nil)
+        }
     }
 }
 
